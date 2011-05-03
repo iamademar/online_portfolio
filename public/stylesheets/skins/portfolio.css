@@ -1,0 +1,57 @@
+/* line 4, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main div.testimonial {
+  width: 100%;
+  font-size: 20px;
+  margin-left: 25px;
+  padding: 10px;
+}
+/* line 10, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main div.testimonial em {
+  font-style: italic;
+}
+/* line 12, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main div.testimonial span {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+/* line 16, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main div.author {
+  width: 500px;
+  text-align: right;
+  width: 870px;
+}
+/* line 20, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main .projects {
+  clear: both;
+  padding: 10px;
+  width: 100%;
+  height: 1240px;
+}
+/* line 25, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main .projects .app_container {
+  float: left;
+  padding: 30px;
+  width: 400px;
+  height: 350px;
+}
+/* line 30, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main .projects .app_container .app_frame {
+  width: 390px;
+  border: 1px solid #dddddd;
+  background: white;
+  padding: 5px;
+}
+/* line 35, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main .projects .app_container .app_frame .app_image {
+  width: 390px;
+  height: 299px;
+  overflow: hidden;
+}
+/* line 39, ../../../app/stylesheets/skins/portfolio.sass */
+body div#container div#main .projects .app_description {
+  width: 400px;
+  padding: 15px 5px 5px;
+  text-align: center;
+  width: 400px;
+}

@@ -1,0 +1,21 @@
+/* line 4, ../../../app/stylesheets/skins/index.sass */
+body div#container header#header h1.header_text {
+  font-size: 50px;
+}
+/* line 6, ../../../app/stylesheets/skins/index.sass */
+body div#container header#header h1.header_text a {
+  color: black;
+  text-decoration: none;
+}
+/* line 10, ../../../app/stylesheets/skins/index.sass */
+body div#container div#main div.introduction {
+  width: 500px;
+  font-size: 20px;
+}
+/* line 13, ../../../app/stylesheets/skins/index.sass */
+body div#container div#main div.introduction a {
+  color: #ed6126;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}

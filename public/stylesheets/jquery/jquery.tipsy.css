@@ -1,0 +1,88 @@
+/* line 1, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy {
+  padding: 5px;
+  font-size: 10px;
+  position: absolute;
+  z-index: 100000;
+}
+
+/* line 7, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-inner {
+  padding: 5px 8px 4px 8px;
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  max-width: 400px;
+  text-align: left;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* line 18, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-arrow {
+  position: absolute;
+  background: url('../images/buttons/tipsy.gif') no-repeat top left;
+  width: 9px;
+  height: 5px;
+}
+
+/* line 24, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-n .tipsy-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -4px;
+}
+
+/* line 29, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-nw .tipsy-arrow {
+  top: 0;
+  left: 10px;
+}
+
+/* line 33, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-ne .tipsy-arrow {
+  top: 0;
+  right: 10px;
+}
+
+/* line 37, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-s .tipsy-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -4px;
+  background-position: bottom left;
+}
+
+/* line 43, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-sw .tipsy-arrow {
+  bottom: 0;
+  left: 10px;
+  background-position: bottom left;
+}
+
+/* line 48, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-se .tipsy-arrow {
+  bottom: 0;
+  right: 10px;
+  background-position: bottom left;
+}
+
+/* line 53, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-e .tipsy-arrow {
+  top: 50%;
+  margin-top: -4px;
+  right: 0;
+  width: 5px;
+  height: 9px;
+  background-position: top right;
+}
+
+/* line 61, ../../../app/stylesheets/jquery/jquery.tipsy.sass */
+.tipsy-w .tipsy-arrow {
+  top: 50%;
+  margin-top: -4px;
+  left: 0;
+  width: 5px;
+  height: 9px;
+}
